@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <script
+  src="https://code.jquery.com/jquery-3.5.1.js"
+  integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc="
+  crossorigin="anonymous"></script>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.bundle.min.js" integrity="sha384-1CmrxMRARb6aLqgBO7yyAxTOQE2AKb9GfXnEo760AUcUmFx3ibVJJAzGytlQcNXd" crossorigin="anonymous"></script>
+     <!-- font awesome -->
+     <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/js/all.min.js"></script>
+     <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/js/brands.min.js"></script>
+     <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/js/fontawesome.min.js"></script>
+     <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/js/conflict-detection.min.js"></script>
+     <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/js/regular.min.js"></script>
+     <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/js/solid.min.js"></script>
+     <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/js/v4-shims.min.js"></script>
+     
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css" />
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/brands.min.css" />
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/fontawesome.min.css" />
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/regular.min.css" />
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/solid.min.css" />
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/svg-with-js.min.css" />
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/v4-shims.min.css" />
+    <meta charset="UTF-8">
+    
+    <link rel="stylesheet" href="redencao.css">
+    <script src="redencao.js"></script>
+    <title>Pad Redemption</title>
+</head>
+<body>
+    <div class="cab">
+        <div class="iconleft">
+            <i class="fas fa-angle-double-left" id="fa-icon-left"></i>
+        </div>
+
+        
+        <div class="iconright">
+            
+
+            <i class="fas fa-angle-double-right" id="fa-icon-right"></i>
+        </div>
+    </div>
+
+    
+
+
+    <div class="header-content" id="header-one">
+        
+        
+        <div class="padContent" onclick="clicaC()">
+            <b>C</b>
+
+            <div class="contaudier">
+            <audio controls="controls" id="audiosC">
+                <source src="../padRedencao/audio/c/pad-c.mp3" type="audio/mp3"/>
+            </audio>
+            </div>
+
+        </div>&nbsp;&nbsp;&nbsp;
+
+        <div class="padContent" onclick="clicaD()">
+            <b>D</b>
+
+            <div class="contaudier">
+                <audio controls="controls" id="audiosD">
+                    <source src="../padRedencao/audio/D/pad-d.mp3" type="audio/mp3"/>
+                </audio>
+                </div>
+        </div>&nbsp;&nbsp;&nbsp;
+
+
+        <div class="padContent" onclick="clicaE()">
+            <b>E</b>
+
+            <div class="contaudier">
+                <audio controls="controls" id="audiosE">
+                    <source src="../padRedencao/audio/E/WORSHIP PAD SHIMMER em E.mp3" type="audio/mp3"/>
+                </audio>
+                </div>
+        </div>&nbsp;&nbsp;&nbsp;
+
+
+        <div class="padContent">
+            <b>F</b>
+
+            <div class="contaudier" onclick="clicaF()">
+                <audio controls="controls" id="audiosF">
+                    <source src="../padRedencao/audio/F/pad-f.mp3" type="audio/mp3"/>
+                </audio>
+                </div>
+        </div>&nbsp;&nbsp;&nbsp;
+
+        <div class="padContent">
+            <b>G</b>
+
+            <div class="contaudier" onclick="clicaG()">
+                <audio controls="controls" id="audiosG">
+                    <source src="../padRedencao/audio/G/pad-g.mp3" type="audio/mp3"/>
+                </audio>
+                </div>
+        </div>&nbsp;&nbsp;&nbsp;
+
+        <div class="padContent">
+            <b>A</b>
+
+            <div class="contaudier" onclick="clicaAs()">
+                <audio controls="controls" id="audiosA">
+                    <source src="../padRedencao/audio/A/pad-a.mp3" type="audio/mp3"/>
+                </audio>
+                </div>
+        </div>&nbsp;&nbsp;&nbsp;
+
+       
+    </div>
+
+
+
+
+
+    <!---------############## SHOW E HIDE ###############--------->
+    <div class="header-content" id="header-show" style="display: none;">
+        
+        
+        <div class="padContent" onclick="clicaB()">
+            <b>B</b>
+
+            <div class="contaudier">
+            <audio controls="controls" id="audiosB">
+                <source src="../padRedencao/audio/B/pad-b.mp3" type="audio/mp3"/>
+            </audio>
+            </div>
+
+        </div>&nbsp;&nbsp;&nbsp;
+
+        <div class="padContent" onclick="clicaFsus()">
+            <b>F#</b>
+
+            <div class="contaudier">
+                <audio controls="controls" id="audiosFsus">
+                    <source src="../padRedencao/audio/Fsus/fsus.mp3" type="audio/mp3"/>
+                </audio>
+                </div>
+        </div>&nbsp;&nbsp;&nbsp;
+
+
+        <div class="padContent" onclick="clicaAsus()">
+            <b>A#</b>
+
+            <div class="contaudier">
+                <audio controls="controls" id="audiosAsus">
+                    <source src="../padRedencao/audio/Asus/asus.mp3" type="audio/mp3"/>
+                </audio>
+                </div>
+        </div>&nbsp;&nbsp;&nbsp;
+
+
+        <div class="padContent">
+            <b>G#</b>
+
+            <div class="contaudier" onclick="clicaGsus()">
+                <audio controls="controls" id="audiosGsus">
+                    <source src="../padRedencao/audio/Gsus/gsus.mp3" type="audio/mp3"/>
+                </audio>
+                </div>
+        </div>&nbsp;&nbsp;&nbsp;
+
+        <div class="padContent">
+            <b>C#</b>
+
+            <div class="contaudier" onclick="clicaCsus()">
+                <audio controls="controls" id="audiosCsus">
+                    <source src="../padRedencao/audio/Csus/csus.mp3" type="audio/mp3"/>
+                </audio>
+                </div>
+        </div>&nbsp;&nbsp;&nbsp;
+
+        <div class="padContent">
+            <b>D#</b>
+
+            <div class="contaudier" onclick="clicaDsus()">
+                <audio controls="controls" id="audiosDsus">
+                    <source src="../padRedencao/audio/Dsus/dsus.mp3" type="audio/mp3"/>
+                </audio>
+                </div>
+        </div>&nbsp;&nbsp;&nbsp;
+
+       
+
+    </div>
+
+     <!---------############## PADS DRUM ###############--------->
+    <div class="header-content pad" id="header-show-pads" style="display: none;">
+        
+        
+        <div class="padContent" onclick="clicaClap()">
+            <b>CLAP</b>
+
+            <div class="contaudier">
+            <audio controls="controls" id="audiosClap">
+                <source src="../padRedencao/audio/padDrum/clap.mp3" type="audio/mp3"/>
+            </audio>
+            </div>
+
+        </div>&nbsp;&nbsp;&nbsp;
+
+        <div class="padContent" onclick="clicaCrash()">
+            <b>CRASH</b>
+
+            <div class="contaudier">
+                <audio controls="controls" id="audiosCrash">
+                    <source src="../padRedencao/audio/padDrum/crash.mp3" type="audio/mp3"/>
+                </audio>
+                </div>
+        </div>&nbsp;&nbsp;&nbsp;
+
+
+        <div class="padContent" onclick="clicaOhat()">
+            <b>OHAT</b>
+
+            <div class="contaudier">
+                <audio controls="controls" id="audiosOhat">
+                    <source src="../padRedencao/audio/padDrum/ohat.mp3" type="audio/mp3"/>
+                </audio>
+                </div>
+        </div>&nbsp;&nbsp;&nbsp;
+
+
+        <div class="padContent">
+            <b>RIM</b>
+
+            <div class="contaudier" onclick="clicaRim()">
+                <audio controls="controls" id="audiosRim">
+                    <source src="../padRedencao/audio/padDrum/rim.mp3" type="audio/mp3"/>
+                </audio>
+                </div>
+        </div>&nbsp;&nbsp;&nbsp;
+
+        <div class="padContent">
+            <b>SNARE</b>
+
+            <div class="contaudier" onclick="clicaSnare()">
+                <audio controls="controls" id="audiosSnare">
+                    <source src="../padRedencao/audio/padDrum/snare.mp3" type="audio/mp3"/>
+                </audio>
+                </div>
+        </div>&nbsp;&nbsp;&nbsp;
+
+        <div class="padContent">
+            <b>TOM</b>
+
+            <div class="contaudier" onclick="clicaTom()">
+                <audio controls="controls" id="audiosTom">
+                    <source src="../padRedencao/audio/padDrum/tom.mp3" type="audio/mp3"/>
+                </audio>
+                </div>
+        </div>&nbsp;&nbsp;&nbsp;
+
+       
+
+    </div>
+
+    
+</body>
+</html>

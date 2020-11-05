@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: rgb(31, 33, 34);
+    font-family: 'Roboto', sans-serif;
+    max-width: 1440px;
+}
+
+.header-content {
+   
+    display: flex;
+    margin: auto;
+    width: 62%;
+    margin-top: 1%;
+    height: 570px;
+    flex-wrap: wrap;
+    
+}
+
+.padContent {
+    background-color: rgb(41, 46, 46);
+    width: 31%;
+    cursor: pointer;
+    height: 170px;
+    border: 0;
+    border-radius: 5px;
+}
+
+.padContent b {
+    padding: 10px;
+    font-size: 20px;
+    color: white;
+}
+
+.padContent:hover {
+    transition: all 0.5s;
+    box-shadow: 1px 1px 8px 1px rgb(78, 75, 75);
+}
+
+.padContent:active {
+    
+    box-shadow: 1px 1px 8px 1px rgb(15, 15, 15);
+}
+
+
+
+audio {
+    width: 0%;
+    height: 135px;
+    
+}
+
+
+.cab {
+    background-color: rgb(192, 122, 122);
+    margin: auto;
+    width: 60%;
+}
+
+.iconleft {
+    float: left;
+    width: 10%;
+}
+
+.iconright {
+    float: right;
+    width: 10%;
+}
+
+#fa-icon-left {
+    width: 40%;
+    height: 40px;
+    color: white;
+    cursor: pointer;
+}
+
+#fa-icon-left:hover {
+    transition: all 0.5s;
+    color: rgb(218, 96, 74);
+}
+
+#fa-icon-right:hover {
+    transition: all 0.5s;
+    color: rgb(218, 96, 74);
+}
+
+#fa-icon-right {
+    width: 40%;
+    height: 40px;
+    color: white;
+    cursor: pointer;
+    margin-left: 20%;
+}
