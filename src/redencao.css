@@ -8,6 +8,12 @@ body {
     max-width: 1440px;
 }
 
+.top-second-column {
+    width: 100%;
+    display: flex;
+    margin-top: -5rem;
+}
+
 .header-content {
    
     display: flex;
@@ -35,7 +41,6 @@ body {
 }
 
 .padContent:hover {
-    transition: all 0.5s;
     box-shadow: 1px 1px 8px 1px rgb(78, 75, 75);
 }
 
@@ -92,4 +97,62 @@ audio {
     color: white;
     cursor: pointer;
     margin-left: 20%;
+}
+
+/* RESPONSIVIDADES */
+
+@media (max-width: 812px){
+    .header-content {
+        width: 75% !important;
+    }
+
+    .top-second-column {
+        margin-top: -12rem !important;
+    }
+
+    .padContent {
+        height: 145px !important;
+    }
+}
+
+@media (max-width: 667px){
+    .header-content {
+        width: 75% !important;
+    }
+
+    .top-second-column {
+        margin-top: -12rem !important;
+    }
+
+    .padContent {
+        height: 145px !important;
+    }
+}
+
+@media (max-width: 640px){
+    .header-content {
+        width: 75% !important;
+    }
+
+    .top-second-column {
+        margin-top: -17.5rem !important;
+    }
+
+    .padContent {
+        height: 145px !important;
+    }
+}
+
+@media (max-width: 568px){
+    .header-content {
+        width: 75% !important;
+    }
+
+    .top-second-column {
+        margin-top: -18rem !important;
+    }
+
+    .padContent {
+        height: 125px !important;
+    }
 }
