@@ -1,4 +1,4 @@
-# padRedencao
+# PAD MUSICAL
 
 Realizado um pad musical para banda a qual sou músico, conforme os gostos da banda.
 
