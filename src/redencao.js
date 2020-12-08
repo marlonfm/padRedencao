@@ -694,3 +694,126 @@ $(document).ready(function (){
 
 
 });
+
+//Key Events
+
+function keyEvent(event) {
+    var key = event.keyCode || event.which;
+    
+    if(key == 67){ // C
+      clicaC();
+    } 
+    else if(key == 68){ // D
+      clicaD();
+    }
+    else if(key == 69){ // E
+      clicaE();
+    }
+    else if(key == 70){ // F
+      clicaF();
+    }
+    else if(key == 70){ // F
+      clicaF();
+    }
+    else if(key == 71){ // G
+      clicaG();
+    }
+    else if(key == 65){ // A
+      clicaAs();
+    }
+    else if(key == 66){ // B
+      clicaB();
+    }
+    /*
+    regra das teclas de cada função: 
+    
+    Pad Drum
+  
+    CLAP: 6,
+    OHAT: 7,
+    RIM: 8,
+    TOM: 9
+    */
+  
+    else if(key == 54){ // CLAP 
+      clicaClap();
+    } 
+    else if(key == 55){ // OHAT 
+      clicaOhat();
+    } 
+    else if(key == 56){ // RIM 
+      clicaRim();
+    } 
+    else if(key == 57){ // TOM 
+      clicaTom();
+    } 
+  
+    /* 
+  
+    //Worship Pads
+  
+    F#: 1,
+    A#: 2,
+    G#: 3,
+    C#: 4,
+    D#: 5,
+    */
+    else if(key == 49){ // F# 
+      clicaFsus();
+    } 
+    else if(key == 50){ // A# 
+      clicaAsus();
+    } 
+    else if(key == 51){ // G# 
+      clicaGsus();
+    } 
+    else if(key == 52){ // C# 
+      clicaCsus();
+    } 
+    else if(key == 53){ // D# 
+      clicaDsus();
+    } 
+
+    /* Setas left e right */
+
+
+    if(key == 39){ // seta para direita
+        if( $("#header-show").is(":visible") ){
+            $("#header-show-pads").show(100);
+
+            $("#header-show").hide(100);
+            $("#header-one").hide(100);
+        } 
+
+        else if ( $("#header-show-pads").is(":visible") ) {
+            $("#header-show").hide(100);
+            $("#header-show-pads").hide(100);
+
+            $("#header-one").show(100); 
+
+
+        }
+
+        else {
+             $("#header-show").show(100);
+
+            $("#header-one").hide(100); 
+        }
+    } 
+    else if(key == 37){ // seta para esquerda
+        if ( $("#header-show-pads").is(":visible") ) {
+            $("#header-show").show(100);
+            $("#header-show-pads").hide(100);
+
+            $("#header-one").hide(100); 
+
+
+        }
+
+
+        $("#header-one").show(100);
+
+        $("#header-show").hide(100);
+    } 
+    
+  }
