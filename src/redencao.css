@@ -12,7 +12,7 @@ body {
   -webkit-font-smoothing: antialiased;
 }
 
-@media screen and (max-width: 1080px) and (max-height: 600px) {
+/*@media screen and (max-width: 1080px) and (max-height: 600px) {
   .padContent {
     max-height: 9rem !important;
   }
@@ -24,26 +24,29 @@ body {
   .container {
     margin-top: 1% !important;
   }
-}
+}*/
 
-.top-second-column {
-  width: 100%;
-  display: flex;
-  margin-top: -5rem;
+@media screen and (max-height: 450px) {
+  .padContent {
+    max-height: 9rem !important;
+  }
+
+  .header-content {
+    height: 20rem !important;
+  }
 }
 
 .header-content {
   display: flex;
   margin: auto;
-  width: 70%;
-  height: 29rem;
+  width: 80%;
+  height: 24rem;
   flex-wrap: wrap;
-  padding-top: 1%;
 }
 
 .padContent {
   background-color: rgb(41, 46, 46);
-  width: 31%;
+  width: 28%;
   cursor: pointer;
   border: 0;
   max-height: 11rem;
@@ -75,12 +78,10 @@ audio {
 
 .iconleft {
   float: left;
-  width: 10%;
 }
 
 .iconright {
   float: right;
-  width: 10%;
 }
 
 #fa-icon-left {
