@@ -78,10 +78,12 @@ audio {
 
 .iconleft {
   float: left;
+  width: 26%;
 }
 
 .iconright {
   float: right;
+  width: 26%;
 }
 
 #fa-icon-left {
@@ -107,62 +109,4 @@ audio {
   color: white;
   cursor: pointer;
   margin-left: 20%;
-}
-
-/* RESPONSIVIDADES */
-
-@media (max-width: 812px) {
-  .header-content {
-    width: 75% !important;
-  }
-
-  .top-second-column {
-    margin-top: -12rem !important;
-  }
-
-  .padContent {
-    height: 115px !important;
-  }
-}
-
-@media (max-width: 667px) {
-  .header-content {
-    width: 75% !important;
-  }
-
-  .top-second-column {
-    margin-top: -12rem !important;
-  }
-
-  .padContent {
-    height: 115px !important;
-  }
-}
-
-@media (max-width: 640px) {
-  .header-content {
-    width: 75% !important;
-  }
-
-  .top-second-column {
-    margin-top: -17.5rem !important;
-  }
-
-  .padContent {
-    height: 115px !important;
-  }
-}
-
-@media (max-width: 568px) {
-  .header-content {
-    width: 75% !important;
-  }
-
-  .top-second-column {
-    margin-top: -18rem !important;
-  }
-
-  .padContent {
-    height: 115px !important;
-  }
 }
