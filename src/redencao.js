@@ -1,3 +1,4 @@
+alert('teste');
 function clicaC() {
     
     const audi = document.getElementById('audiosD');
